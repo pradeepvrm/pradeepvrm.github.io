@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-    <div className='min-h-screen bg-black relative overflow-hidden'>
+    <main className='min-h-screen bg-black relative flex flex-col items-center overflow-hidden'>
     <div className="absolute inset-0"
         style={{
           backgroundImage: 
@@ -30,23 +30,23 @@ function App() {
       /> */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/40" />
 
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 text-center md:px-12">
         <div className="max-w-4xl mx-auto space-y-8">
           {/* Main Heading */}
-          <div className="space-y-2">
-            <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">Hey! I'm Pradeep, a</h1>
+          <div className="">
+            <h1 className="text-6xl md:text-6xl lg:text-7xl font-black text-white leading-tight">Hey! I'm Pradeep, a</h1>
             <div className="inline-block bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-3 rounded-lg">
-              <span className="text-3xl md:text-6xl lg:text-7xl font-bold text-white">FullStack Developer</span>
+              <span className="text-6xl md:text-6xl lg:text-7xl font-black text-white">FullStack Developer</span>
             </div>
           </div>
 
-          <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
+          <p className="text-gray-400 text-xl md:text-xl max-w-3xl mx-auto leading-relaxed">
             A passionate and skilled Software Developer with strong problem-solving abilities and expertise in full
             stack. I can build and deploy robust backends and responsive UIs. I continuously explore new tools and
             frameworks to craft innovative, scalable, and efficient products.
           </p>
           <div className="pt-4">
-            <button className="bg-slate-800 hover:bg-slate-700 text-white px-8 py-3 rounded-full text-lg font-medium transition-all duration-200 border border-slate-700 hover:border-slate-600">
+            <button className="hover:bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-full bg-slate-800 text-lg font-medium transition-all duration-200 border border-slate-700 hover:border-slate-600">
               <a href="https://fra.cloud.appwrite.io/v1/storage/buckets/testbucket/files/684b07a700394a1e7f9d/view?project=682471bb00399c580b6a&mode=admin" target='_blank'>
                   View Resume</a>
             </button>
@@ -55,7 +55,7 @@ function App() {
         </div>
       </div>
 
-    </div>
+    </main>
     </>
   )
 }
