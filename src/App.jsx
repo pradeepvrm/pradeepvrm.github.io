@@ -30,13 +30,13 @@ function App() {
       />
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/40" />
 
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 text-center md:px-12">
+      <div className="relative z-10 flex flex-col items-center justify-center py-10 px-6 text-center md:px-12">
         <div className="max-w-4xl mx-auto space-y-6">
           {/* Main Heading */}
           <div className="">
-            <h1 className="text-2xl md:text-6xl lg:text-7xl font-black text-white leading-tight">Hey! I'm Pradeep, a</h1>
-            <div className="inline-block bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-3 rounded-lg">
-              <span className="text-2xl md:text-6xl lg:text-7xl font-black text-white">FullStack Developer</span>
+            <h1 className="text-3xl md:text-6xl lg:text-7xl font-black text-white leading-tight">Hey! I'm Pradeep, a</h1>
+            <div className="inline-block bg-gradient-to-r from-blue-500 to-purple-600 md:px-4 py-3 rounded-lg">
+              <span className="text-3xl md:text-6xl lg:text-7xl font-black text-white">FullStack Developer</span>
             </div>
           </div>
 
@@ -74,11 +74,38 @@ function App() {
         </div>
       </div>
 
+      {/* skills section */}
+      <div className="flex min-h-0 flex-col gap-y-3 py-6 text-center">
+        <div className="py-2">
+          <h2 className="text-3xl md:text-5xl text-white font-black">Skills</h2>
+        </div>
+        <div className="flex flex-wrap gap-2 justify-center max-w-4xl">
+          <span className="px-2 py-1 bg-lime-500/30 text-lime-300 text-sm rounded">Python</span>
+          <span className="px-2 py-1 bg-pink-500/30 text-pink-300 text-sm rounded">Javascript</span>
+          <span className="px-2 py-1 bg-indigo-500/30 text-indigo-300 text-sm rounded">Java</span>
+          <span className="px-2 py-1 bg-teal-500/30 text-teal-300 text-sm rounded">Bash</span>
+          <span className="px-2 py-1 bg-blue-500/30 text-blue-300 text-sm rounded">Flask</span>
+          <span className="px-2 py-1 bg-red-500/30 text-red-300 text-sm rounded">Django</span>
+          <span className="px-2 py-1 bg-pink-500/30 text-pink-300 text-sm rounded">SQL</span>
+          <span className="px-2 py-1 bg-yellow-500/30 text-yellow-300 text-sm rounded">React.js</span>
+          <span className="px-2 py-1 bg-purple-500/30 text-purple-300 text-sm rounded">PostgreSQL</span>
+          <span className="px-2 py-1 bg-indigo-500/30 text-indigo-300 text-sm rounded">Git</span>
+          <span className="px-2 py-1 bg-green-500/30 text-green-300 text-sm rounded">Tailwind CSS</span>
+          <span className="px-2 py-1 bg-cyan-500/30 text-cyan-300 text-sm rounded">Firebase</span>
+          <span className="px-2 py-1 bg-emerald-500/30 text-emerald-300 text-sm rounded">Azure</span>
+          <span className="px-2 py-1 bg-lime-500/30 text-lime-300 text-sm rounded">Github Pages</span>
+          <span className="px-2 py-1 bg-green-500/30 text-green-300 text-sm rounded">Postman</span>
+          <span className="px-2 py-1 bg-cyan-500/30 text-cyan-300 text-sm rounded">Pandas</span>
+          
+        </div>
+
+      </div>
+
       {/* projects section */}
       <div className="relative z-10 py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-              <h2 className="text-2xl md:text-6xl font-black text-white leading-tight">Checkout My Projects</h2>
+              <h2 className="text-3xl py-2 md:text-6xl font-black text-white leading-tight">Checkout My Projects</h2>
               <p className="text-gray-400 text-md md:text-xl max-w-2xl mx-auto">
                 Here are some of my recent projects that showcase my skills in full-stack development
               </p>
@@ -134,6 +161,34 @@ function App() {
                     Live Demo
                   </a>
                   <a href="https://github.com/pradeepvrm/mines" className="text-gray-400 hover:text-white text-sm font-medium">
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Paperstake */}
+            <div className="bg-slate-950/20 backdrop-blur-[2px] border border-slate-700 rounded-2xl p-6 hover:border-gray-500 transition-all duration-300 hover:transform hover:scale-102">
+              <div className="mb-4">
+                <div className="rounded-2xl mb-4 flex items-center justify-center">
+                  <img src="paperstake.png" className="rounded-2xl w-full h-48" alt="" srcset="" />
+                </div>
+                <h3 className="text-xl font-bold text-white mb-2">Paperstake</h3>
+                <p className="text-gray-400 text-sm mb-4">
+                  A mock gambling web application with a complex betting logic that allows to users to bet their points and a realtime leaderboard.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-300 text-xs rounded">Django</span>
+                  <span className="px-2 py-1 bg-orange-500/20 text-orange-300 text-xs rounded">React</span>
+                  <span className="px-2 py-1 bg-yellow-500/20 text-yellow-300 text-xs rounded">PostgreSQL</span>
+                  <span className="px-2 py-1 bg-purple-500/20 text-purple-300 text-xs rounded">Tailwind CSS</span>
+                  <span className="px-2 py-1 bg-red-500/20 text-red-300 text-xs rounded">Firebase</span>
+                </div>
+                <div className="flex space-x-4">
+                  <a href="https://paper-stake.web.app" className="text-blue-400 hover:text-blue-300 text-sm font-medium">
+                    Live Demo
+                  </a>
+                  <a href="https://github.com/pradeepvrm/paperstake" className="text-gray-400 hover:text-white text-sm font-medium">
                     GitHub
                   </a>
                 </div>
