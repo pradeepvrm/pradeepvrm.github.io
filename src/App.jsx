@@ -64,10 +64,11 @@ function App() {
           </div>
 
           <div className="pt-4">
-            <button className="hover:bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-full bg-slate-800/40 backdrop-blur-xs text-lg font-medium transition-all duration-200 border border-slate-700 hover:border-slate-600">
-              <a href="https://fra.cloud.appwrite.io/v1/storage/buckets/testbucket/files/684b07a700394a1e7f9d/view?project=682471bb00399c580b6a&mode=admin" target='_blank'>
-                  View Resume</a>
-            </button>
+            <a href="https://fra.cloud.appwrite.io/v1/storage/buckets/testbucket/files/684b07a700394a1e7f9d/view?project=682471bb00399c580b6a&mode=admin"
+              className="hover:bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-full bg-slate-800/40 backdrop-blur-xs text-lg font-medium transition-all duration-200 border border-slate-700 hover:border-slate-600"
+              target="_blank">
+                View Resume
+            </a>
           </div>
 
         </div>
@@ -77,18 +78,19 @@ function App() {
       <div className="relative z-10 py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Checkout my projects</h2>
-              <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+              <h2 className="text-2xl md:text-6xl font-black text-white leading-tight">Checkout My Projects</h2>
+              <p className="text-gray-400 text-md md:text-xl max-w-2xl mx-auto">
                 Here are some of my recent projects that showcase my skills in full-stack development
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* projects list */}
-            <div className="bg-slate-800/20 backdrop-blur-xs border border-slate-700 rounded-2xl p-6 hover:border-gray-500 transition-all duration-300 hover:transform hover:scale-102">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* CryptoCharts */}
+            <div className="bg-slate-950/20 backdrop-blur-[2px] border border-slate-700 rounded-2xl p-6 hover:border-gray-500 transition-all duration-300 hover:transform hover:scale-102">
               <div className="mb-4">
-                <div className="w-full h-48 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl mb-4 flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">CryptoCharts</span>
+                <div className="rounded-2xl mb-4 flex items-center justify-center">
+                  <img src="https://raw.githubusercontent.com/pradeepvrm/CryptoCharts/refs/heads/main/assets/example.jpeg" className="rounded-2xl w-full h-48" alt="" srcset="" />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-2">CryptoCharts</h3>
                 <p className="text-gray-400 text-sm mb-4">
@@ -110,8 +112,35 @@ function App() {
                 </div>
               </div>
             </div>
-              
+
+            {/* Mines */}
+            <div className="bg-slate-950/20 backdrop-blur-[2px] border border-slate-700 rounded-2xl p-6 hover:border-gray-500 transition-all duration-300 hover:transform hover:scale-102">
+              <div className="mb-4">
+                <div className="rounded-2xl mb-4 flex items-center justify-center">
+                  <img src="mines.png" className="rounded-2xl w-full h-48" alt="" srcset="" />
+                </div>
+                <h3 className="text-xl font-bold text-white mb-2">Mines</h3>
+                <p className="text-gray-400 text-sm mb-4">
+                A React-based game with a 5x5 grid where players guess squares to avoid mines. The game includes variable mine counts and a probability-based scoring system.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-300 text-xs rounded">React</span>
+                  <span className="px-2 py-1 bg-orange-500/20 text-orange-300 text-xs rounded">Tailwind CSS</span>
+                  <span className="px-2 py-1 bg-yellow-500/20 text-yellow-300 text-xs rounded">Firebase</span>
+                  <span className="px-2 py-1 bg-red-500/20 text-red-300 text-xs rounded">Github Pages</span>
+                </div>
+                <div className="flex space-x-4">
+                  <a href="https://mines-project.web.app" className="text-blue-400 hover:text-blue-300 text-sm font-medium">
+                    Live Demo
+                  </a>
+                  <a href="https://github.com/pradeepvrm/mines" className="text-gray-400 hover:text-white text-sm font-medium">
+                    GitHub
+                  </a>
+                </div>
+              </div>
             </div>
+              
+          </div>
 
         </div>
       </div>
