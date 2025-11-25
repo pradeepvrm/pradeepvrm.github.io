@@ -203,6 +203,13 @@ function App() {
             </div>
               
           </div>
+          <div className="text-center justify-center mt-12">
+            <a
+              href="https://github.com/pradeepvrm"
+              className="text-white px-8 py-3 rounded-full bg-slate-800/40 backdrop-blur-xs text-lg font-medium transition-all duration-200 border border-slate-700 hover:border-slate-600">
+              More Projects
+            </a>  
+          </div>
 
         </div>
       </div>
