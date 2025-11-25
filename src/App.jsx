@@ -1,4 +1,4 @@
-import { Linkedin, Github } from "lucide-react"
+import { Linkedin, Github, Mail } from "lucide-react"
 import './App.css'
 
 function App() {
@@ -34,9 +34,9 @@ function App() {
         <div className="max-w-4xl mx-auto space-y-6">
           {/* Main Heading */}
           <div className="">
-            <h1 className="text-3xl md:text-6xl lg:text-7xl font-black text-white leading-tight">Hey! I'm Pradeep, a</h1>
+            <h1 className="text-[28px] md:text-6xl lg:text-7xl font-black text-white leading-tight">Hey! I'm Pradeep, a</h1>
             <div className="inline-block bg-gradient-to-r from-blue-500 to-purple-600 md:px-4 py-3 rounded-lg">
-              <span className="text-3xl md:text-6xl lg:text-7xl font-black text-white">FullStack Developer</span>
+              <span className="text-[28px] md:text-6xl lg:text-7xl font-black text-white">FullStack Developer</span>
             </div>
           </div>
 
@@ -61,6 +61,13 @@ function App() {
             >
               <Github className="w-6 h-6" />
             </a>
+            <a
+              href="mailto:pradeepkv012@gmail.com"
+              className="bg-slate-800/40 backdrop-blur-xs text-gray-400 hover:text-white transition-colors duration-200 border border-slate-700 hover:border-gray-500 rounded-2xl p-3"
+              aria-label="Mail"
+            >
+              <Mail className="w-6 h-6" />
+            </a>
           </div>
 
           <div className="pt-4">
@@ -79,7 +86,7 @@ function App() {
         <div className="py-2">
           <h2 className="text-3xl md:text-5xl text-white font-black">Skills</h2>
         </div>
-        <div className="flex flex-wrap gap-2 justify-center max-w-4xl">
+        <div className="flex flex-wrap gap-2 justify-center max-w-3xl">
           <span className="px-2 py-1 bg-lime-500/30 text-lime-300 text-sm rounded">Python</span>
           <span className="px-2 py-1 bg-pink-500/30 text-pink-300 text-sm rounded">Javascript</span>
           <span className="px-2 py-1 bg-indigo-500/30 text-indigo-300 text-sm rounded">Java</span>
@@ -104,8 +111,8 @@ function App() {
       {/* projects section */}
       <div className="relative z-10 py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-              <h2 className="text-3xl py-2 md:text-6xl font-black text-white leading-tight">Checkout My Projects</h2>
+          <div className="text-center mb-8">
+              <h2 className="text-3xl py-2 md:text-5xl font-black text-white leading-tight">Checkout My Projects</h2>
               <p className="text-gray-400 text-md md:text-xl max-w-2xl mx-auto">
                 Here are some of my recent projects that showcase my skills in full-stack development
               </p>
