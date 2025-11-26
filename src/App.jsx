@@ -34,9 +34,9 @@ function App() {
         <div className="max-w-4xl mx-auto space-y-6">
           {/* Main Heading */}
           <div className="">
-            <h1 className="text-[28px] md:text-6xl lg:text-7xl font-black text-white leading-tight">Hey! I'm Pradeep, a</h1>
+            <h1 className="text-[27px] md:text-6xl lg:text-7xl font-black text-white leading-tight">Hey! I'm Pradeep, a</h1>
             <div className="inline-block bg-gradient-to-r from-blue-500 to-purple-600 md:px-4 py-3 rounded-lg">
-              <span className="text-[28px] md:text-6xl lg:text-7xl font-black text-white">FullStack Developer</span>
+              <span className="text-[27px] md:text-6xl lg:text-7xl font-black text-white">FullStack Developer</span>
             </div>
           </div>
 
@@ -92,7 +92,7 @@ function App() {
           <span className="px-2 py-1 bg-indigo-500/30 text-indigo-300 text-sm rounded">Java</span>
           <span className="px-2 py-1 bg-teal-500/30 text-teal-300 text-sm rounded">Bash</span>
           <span className="px-2 py-1 bg-blue-500/30 text-blue-300 text-sm rounded">Flask</span>
-          <span className="px-2 py-1 bg-red-500/30 text-red-300 text-sm rounded">Django</span>
+          <span className="px-2 py-1 bg-slate-500/30 text-slate-300 text-sm rounded">Django</span>
           <span className="px-2 py-1 bg-pink-500/30 text-pink-300 text-sm rounded">SQL</span>
           <span className="px-2 py-1 bg-yellow-500/30 text-yellow-300 text-sm rounded">React.js</span>
           <span className="px-2 py-1 bg-purple-500/30 text-purple-300 text-sm rounded">PostgreSQL</span>
@@ -161,7 +161,7 @@ function App() {
                   <span className="px-2 py-1 bg-blue-500/20 text-blue-300 text-xs rounded">React</span>
                   <span className="px-2 py-1 bg-orange-500/20 text-orange-300 text-xs rounded">Tailwind CSS</span>
                   <span className="px-2 py-1 bg-yellow-500/20 text-yellow-300 text-xs rounded">Firebase</span>
-                  <span className="px-2 py-1 bg-red-500/20 text-red-300 text-xs rounded">Github Pages</span>
+                  <span className="px-2 py-1 bg-slate-500/20 text-slate-300 text-xs rounded">Github Pages</span>
                 </div>
                 <div className="flex space-x-4">
                   <a href="https://mines-project.web.app" className="text-blue-400 hover:text-blue-300 text-sm font-medium">
@@ -175,7 +175,7 @@ function App() {
             </div>
 
             {/* Paperstake */}
-            <div className="bg-slate-950/20 backdrop-blur-[2px] border border-slate-700 rounded-2xl p-6 hover:border-gray-500 transition-all duration-300 hover:transform hover:scale-102">
+            {/* <div className="bg-slate-950/20 backdrop-blur-[2px] border border-slate-700 rounded-2xl p-6 hover:border-gray-500 transition-all duration-300 hover:transform hover:scale-102">
               <div className="mb-4">
                 <div className="rounded-2xl mb-4 flex items-center justify-center">
                   <img src="paperstake.png" className="rounded-2xl w-full h-48" alt="" srcset="" />
@@ -189,13 +189,41 @@ function App() {
                   <span className="px-2 py-1 bg-orange-500/20 text-orange-300 text-xs rounded">React</span>
                   <span className="px-2 py-1 bg-yellow-500/20 text-yellow-300 text-xs rounded">PostgreSQL</span>
                   <span className="px-2 py-1 bg-purple-500/20 text-purple-300 text-xs rounded">Tailwind CSS</span>
-                  <span className="px-2 py-1 bg-red-500/20 text-red-300 text-xs rounded">Firebase</span>
+                  <span className="px-2 py-1 bg-slate-500/20 text-slate-300 text-xs rounded">Firebase</span>
                 </div>
                 <div className="flex space-x-4">
                   <a href="https://paper-stake.web.app" className="text-blue-400 hover:text-blue-300 text-sm font-medium">
                     Live Demo
                   </a>
                   <a href="https://github.com/pradeepvrm/paperstake" className="text-gray-400 hover:text-white text-sm font-medium">
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div> */}
+
+            {/* LMchat */}
+            <div className="bg-slate-950/20 backdrop-blur-[2px] border border-slate-700 rounded-2xl p-6 hover:border-gray-500 transition-all duration-300 hover:transform hover:scale-102">
+              <div className="mb-4">
+                <div className="rounded-2xl mb-4 flex items-center justify-center">
+                  <img src="lmchat.png" className="rounded-2xl w-full h-48" alt="" srcset="" />
+                </div>
+                <h3 className="text-xl font-bold text-white mb-2">LM Chat</h3>
+                <p className="text-gray-400 text-sm mb-4">
+                A web app for chatting with multiple Large Language Models. Select from popular models (like GPT, Gemini, Claude, Llama, DeepSeek, etc.) and interact with them in real time.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-300 text-xs rounded">Flask</span>
+                  <span className="px-2 py-1 bg-orange-500/20 text-orange-300 text-xs rounded">PostgreSQL</span>
+                  <span className="px-2 py-1 bg-yellow-500/20 text-yellow-300 text-xs rounded">OpenAI SDK</span>
+                  <span className="px-2 py-1 bg-purple-500/20 text-purple-300 text-xs rounded">Highlight.js</span>
+                  <span className="px-2 py-1 bg-cyan-500/20 text-cyan-300 text-xs rounded">Lightning AI API</span>
+                </div>
+                <div className="flex space-x-4">
+                  <a href="https://chat.pradeep.rocks" className="text-blue-400 hover:text-blue-300 text-sm font-medium">
+                    Live Demo
+                  </a>
+                  <a href="https://github.com/pradeepvrm/lmchat" className="text-gray-400 hover:text-white text-sm font-medium">
                     GitHub
                   </a>
                 </div>
