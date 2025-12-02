@@ -71,7 +71,7 @@ function App() {
           </div>
 
           <div className="pt-4">
-            <a href="https://fra.cloud.appwrite.io/v1/storage/buckets/testbucket/files/684b07a700394a1e7f9d/view?project=682471bb00399c580b6a&mode=admin"
+            <a href="https://sgp.cloud.appwrite.io/v1/storage/buckets/692debff0021b1bd16e0/files/692dec13002be8abbd7b/view?project=692debee0018b1671201&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbklkIjoiNjkyZGVkN2JiYTgxY2NlYTE5NDEiLCJyZXNvdXJjZUlkIjoiNjkyZGViZmYwMDIxYjFiZDE2ZTA6NjkyZGVjMTMwMDJiZThhYmJkN2IiLCJyZXNvdXJjZVR5cGUiOiJmaWxlcyIsInJlc291cmNlSW50ZXJuYWxJZCI6Ijk5NzoxIiwiaWF0IjoxNzY0NjE3NTk1fQ.a4rf6u8WlLWmsgRD5-PyZBDDmZPnaiuFt-wJbFO2BPA"
               className="hover:bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-full bg-slate-800/40 backdrop-blur-xs text-lg font-medium transition-all duration-200 border border-slate-700 hover:border-slate-600"
               target="_blank">
                 View Resume
