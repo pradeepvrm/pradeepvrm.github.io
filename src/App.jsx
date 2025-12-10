@@ -42,7 +42,7 @@ function App() {
 
           <p className="text-gray-400 text-md md:text-xl max-w-3xl mx-auto leading-relaxed">
             A passionate and skilled Software Developer with strong problem-solving abilities and expertise in full
-            stack. I can build and deploy robust backends and responsive UIs. I continuously explore new tools and
+            stack development. I can build and deploy robust backends and responsive UIs. I continuously explore new tools and
             frameworks to craft innovative, scalable, and efficient products.
           </p>
 
@@ -120,6 +120,35 @@ function App() {
 
             {/* projects list */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            {/* LMchat */}
+            <div className="bg-slate-950/20 backdrop-blur-[2px] border border-slate-700 rounded-2xl p-6 hover:border-gray-500 transition-all duration-300 hover:transform hover:scale-102">
+              <div className="mb-4">
+                <div className="rounded-2xl mb-4 flex items-center justify-center">
+                  <img src="lmchat.png" className="rounded-2xl w-full h-48" alt="" srcset="" />
+                </div>
+                <h3 className="text-xl font-bold text-white mb-2">LM Chat</h3>
+                <p className="text-gray-400 text-sm mb-4">
+                A web app for chatting with multiple Large Language Models. Select from popular models (like GPT, Gemini, Claude, Llama, DeepSeek, etc.) and interact with them in real time.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-300 text-xs rounded">Flask</span>
+                  <span className="px-2 py-1 bg-orange-500/20 text-orange-300 text-xs rounded">PostgreSQL</span>
+                  <span className="px-2 py-1 bg-yellow-500/20 text-yellow-300 text-xs rounded">OpenAI SDK</span>
+                  <span className="px-2 py-1 bg-purple-500/20 text-purple-300 text-xs rounded">Highlight.js</span>
+                  <span className="px-2 py-1 bg-cyan-500/20 text-cyan-300 text-xs rounded">Lightning AI API</span>
+                </div>
+                <div className="flex space-x-4">
+                  <a href="https://chat.pradeep.rocks" className="text-blue-400 hover:text-blue-300 text-sm font-medium">
+                    Live Demo
+                  </a>
+                  <a href="https://github.com/pradeepvrm/lmchat" className="text-gray-400 hover:text-white text-sm font-medium">
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
             {/* CryptoCharts */}
             <div className="bg-slate-950/20 backdrop-blur-[2px] border border-slate-700 rounded-2xl p-6 hover:border-gray-500 transition-all duration-300 hover:transform hover:scale-102">
               <div className="mb-4">
@@ -201,34 +230,6 @@ function App() {
                 </div>
               </div>
             </div> */}
-
-            {/* LMchat */}
-            <div className="bg-slate-950/20 backdrop-blur-[2px] border border-slate-700 rounded-2xl p-6 hover:border-gray-500 transition-all duration-300 hover:transform hover:scale-102">
-              <div className="mb-4">
-                <div className="rounded-2xl mb-4 flex items-center justify-center">
-                  <img src="lmchat.png" className="rounded-2xl w-full h-48" alt="" srcset="" />
-                </div>
-                <h3 className="text-xl font-bold text-white mb-2">LM Chat</h3>
-                <p className="text-gray-400 text-sm mb-4">
-                A web app for chatting with multiple Large Language Models. Select from popular models (like GPT, Gemini, Claude, Llama, DeepSeek, etc.) and interact with them in real time.
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-2 py-1 bg-blue-500/20 text-blue-300 text-xs rounded">Flask</span>
-                  <span className="px-2 py-1 bg-orange-500/20 text-orange-300 text-xs rounded">PostgreSQL</span>
-                  <span className="px-2 py-1 bg-yellow-500/20 text-yellow-300 text-xs rounded">OpenAI SDK</span>
-                  <span className="px-2 py-1 bg-purple-500/20 text-purple-300 text-xs rounded">Highlight.js</span>
-                  <span className="px-2 py-1 bg-cyan-500/20 text-cyan-300 text-xs rounded">Lightning AI API</span>
-                </div>
-                <div className="flex space-x-4">
-                  <a href="https://chat.pradeep.rocks" className="text-blue-400 hover:text-blue-300 text-sm font-medium">
-                    Live Demo
-                  </a>
-                  <a href="https://github.com/pradeepvrm/lmchat" className="text-gray-400 hover:text-white text-sm font-medium">
-                    GitHub
-                  </a>
-                </div>
-              </div>
-            </div>
               
           </div>
           <div className="text-center justify-center mt-12">
