@@ -42,7 +42,7 @@ function App() {
 
           <p className="text-gray-400 text-md md:text-xl max-w-3xl mx-auto leading-relaxed">
             A passionate and skilled Software Developer with strong problem-solving abilities and expertise in full
-            stack development. I can build and deploy robust backends and responsive UIs. I continuously explore new tools and
+            stack development and data analysis. I can build and deploy robust backends and responsive UIs. I continuously explore new tools and
             frameworks to craft innovative, scalable, and efficient products.
           </p>
 
@@ -71,7 +71,7 @@ function App() {
           </div>
 
           <div className="pt-4">
-            <a href="https://sgp.cloud.appwrite.io/v1/storage/buckets/692debff0021b1bd16e0/files/692dec13002be8abbd7b/view?project=692debee0018b1671201&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbklkIjoiNjkyZGVkN2JiYTgxY2NlYTE5NDEiLCJyZXNvdXJjZUlkIjoiNjkyZGViZmYwMDIxYjFiZDE2ZTA6NjkyZGVjMTMwMDJiZThhYmJkN2IiLCJyZXNvdXJjZVR5cGUiOiJmaWxlcyIsInJlc291cmNlSW50ZXJuYWxJZCI6Ijk5NzoxIiwiaWF0IjoxNzY0NjE3NTk1fQ.a4rf6u8WlLWmsgRD5-PyZBDDmZPnaiuFt-wJbFO2BPA"
+            <a href="https://sgp.cloud.appwrite.io/v1/storage/buckets/692debff0021b1bd16e0/files/695e50ed00161bc63a57/view?project=692debee0018b1671201&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbklkIjoiNjk1ZTUyNjY1ZGIyNTg1OTc5ZDUiLCJyZXNvdXJjZUlkIjoiNjkyZGViZmYwMDIxYjFiZDE2ZTA6Njk1ZTUwZWQwMDE2MWJjNjNhNTciLCJyZXNvdXJjZVR5cGUiOiJmaWxlcyIsInJlc291cmNlSW50ZXJuYWxJZCI6Ijk5NzoyIiwiaWF0IjoxNzY3Nzg5MTU4fQ.mLovQGv0waiBzittO4X1lZGN7AZ1YAGbWgfHIRBx9RM"
               className="hover:bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-full bg-slate-800/40 backdrop-blur-xs text-lg font-medium transition-all duration-200 border border-slate-700 hover:border-slate-600"
               target="_blank">
                 View Resume
@@ -90,10 +90,13 @@ function App() {
           <span className="px-2 py-1 bg-lime-500/30 text-lime-300 text-sm rounded">Python</span>
           <span className="px-2 py-1 bg-pink-500/30 text-pink-300 text-sm rounded">Javascript</span>
           <span className="px-2 py-1 bg-indigo-500/30 text-indigo-300 text-sm rounded">Java</span>
-          <span className="px-2 py-1 bg-teal-500/30 text-teal-300 text-sm rounded">Bash</span>
-          <span className="px-2 py-1 bg-blue-500/30 text-blue-300 text-sm rounded">Flask</span>
-          <span className="px-2 py-1 bg-slate-500/30 text-slate-300 text-sm rounded">Django</span>
-          <span className="px-2 py-1 bg-pink-500/30 text-pink-300 text-sm rounded">SQL</span>
+          <span className="px-2 py-1 bg-teal-500/30 text-teal-300 text-sm rounded">Pandas</span>
+          <span className="px-2 py-1 bg-green-500/30 text-green-300 text-sm rounded">Numpy</span>
+          <span className="px-2 py-1 bg-blue-500/30 text-blue-300 text-sm rounded">SQL</span>
+          <span className="px-2 py-1 bg-cyan-500/30 text-cyan-300 text-sm rounded">Excel</span>
+          <span className="px-2 py-1 bg-slate-500/30 text-slate-300 text-sm rounded">Bash</span>
+          <span className="px-2 py-1 bg-pink-500/30 text-pink-300 text-sm rounded">Flask</span>
+          <span className="px-2 py-1 bg-indigo-500/30 text-indigo-300 text-sm rounded">Django</span>
           <span className="px-2 py-1 bg-yellow-500/30 text-yellow-300 text-sm rounded">React.js</span>
           <span className="px-2 py-1 bg-purple-500/30 text-purple-300 text-sm rounded">PostgreSQL</span>
           <span className="px-2 py-1 bg-indigo-500/30 text-indigo-300 text-sm rounded">Git</span>
@@ -102,7 +105,6 @@ function App() {
           <span className="px-2 py-1 bg-emerald-500/30 text-emerald-300 text-sm rounded">Azure</span>
           <span className="px-2 py-1 bg-lime-500/30 text-lime-300 text-sm rounded">Github Pages</span>
           <span className="px-2 py-1 bg-green-500/30 text-green-300 text-sm rounded">Postman</span>
-          <span className="px-2 py-1 bg-cyan-500/30 text-cyan-300 text-sm rounded">Pandas</span>
           
         </div>
 
